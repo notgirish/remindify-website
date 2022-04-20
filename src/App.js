@@ -11,8 +11,8 @@ export default function App() {
     <>
       <Header />
       <Routes>
-        <Route exact path="/" element={<Homepage />} />
-        <Route exact path="more" element={<Knowmore />} />
+        <Route path="/" element={<Homepage />} />
+        <Route path="/more" element={<Knowmore />} />
       </Routes>
       <Footer />
     </>
