@@ -7,26 +7,23 @@
     box-sizing: border-box;
     margin: 0; padding: 0;
   }
-  body{
-    /* background: #F2F2F2; */
-  }
   
   @font-face {
     font-family: "ttinterfaces";
     font-weight: 400;
-    src: url("./assets/fonts/TTInterfaces-Regular.ttf");
+    src: url("./assets/fonts/TTInterfaces-Regular.woff2");
   }
 
   @font-face {
     font-family: "ttinterfaces";
     font-weight: 500;
-    src: url("./assets/fonts/TTInterfaces-Medium.ttf");
+    src: url("./assets/fonts/TTInterfaces-Medium.woff2");
   }
 
   @font-face {
     font-family: "ttinterfaces";
     font-weight: 700;
-    src: url("./assets/fonts/TTInterfaces-Bold.ttf");
+    src: url("./assets/fonts/TTInterfaces-Bold.woff2");
   }
 }
 
