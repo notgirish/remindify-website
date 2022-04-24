@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/* full page scroll effect: https://www.youtube.com/watch?v=htw4iKMYzEc&ab_channel=DevEd */
+
 @layer base {
   * {
     box-sizing: border-box;
@@ -37,8 +39,12 @@
   @apply max-w-[1200px] mx-auto my-0;
 }
 
+#root{
+  @apply xl:snap-y xl:snap-mandatory xl:overflow-y-scroll xl:h-screen;
+}
+
 .features-main-div{
-  @apply flex flex-col justify-center my-28 md:flex-row xl:h-[80vh];
+  @apply flex flex-col justify-center my-28 md:flex-row xl:h-screen xl:snap-start;
 }
 
 .features-highlight {

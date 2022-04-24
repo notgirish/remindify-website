@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Knowmore() {
   return (
-    <main className='container px-7 py-4 flex flex-col pt-28 h-screen'>
+    <main className='container px-7 py-4 flex flex-col pt-28 h-screen xl:snap-start'>
       <p className='text-5xl text-secondary font-bold pb-7'>Thank you for downloading this app. <span className='text-customgray'>Hopefully it has helped you in increasing your productivity.</span></p>
 
       <svg width="41" height="41" viewBox="0 0 82 82" fill="none" xmlns="http://www.w3.org/2000/svg">
