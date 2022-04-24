@@ -2,55 +2,57 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-  *{
+@layer base {
+  * {
     box-sizing: border-box;
-    margin: 0; padding: 0;
-  }
-  
-  @font-face {
-    font-family: "ttinterfaces";
-    font-weight: 400;
-    src: url("./assets/fonts/TTInterfaces-Regular.woff2");
-  }
-
-  @font-face {
-    font-family: "ttinterfaces";
-    font-weight: 500;
-    src: url("./assets/fonts/TTInterfaces-Medium.woff2");
-  }
-
-  @font-face {
-    font-family: "ttinterfaces";
-    font-weight: 700;
-    src: url("./assets/fonts/TTInterfaces-Bold.woff2");
+    margin: 0;
+    padding: 0;
   }
 
   @font-face {
     font-family: "gtwp";
     font-weight: 400;
-    src: url("./assets/fonts/gtwp-reg.ttf");
+    src: url("./assets/fonts/GTWalsheimPro-Regular.woff2");
   }
 
   @font-face {
     font-family: "gtwp";
     font-weight: 500;
-    src: url("./assets/fonts/gtwp-med.ttf");
+    src: url("./assets/fonts/GTWalsheimPro-Medium.woff2");
   }
 
   @font-face {
     font-family: "gtwp";
     font-weight: 700;
-    src: url("./assets/fonts/gtwp-bold.ttf");
+    src: url("./assets/fonts/GTWalsheimPro-Bold.woff2");
   }
 
-  body{
+  #root {
     font-family: "gtwp";
   }
 }
 
 
-.container{
+.container {
   @apply max-w-[1200px] mx-auto my-0;
 }
 
+.features-main-div{
+  @apply flex flex-col justify-center my-28 md:flex-row xl:h-[80vh];
+}
+
+.features-highlight {
+  @apply text-[2.5rem] leading-[2.6rem] text-secondary font-bold md:flex-1 md:self-center xl:text-6xl;
+}
+
+.features-explanation {
+  @apply text-customgray;
+}
+
+.features-card-bg {
+  @apply bg-primary w-[310px] h-[340px] rounded-[2rem] relative top-0 left-0 mt-16 md:m-0 md:ml-6 xl:self-center xl:ml-8 xl:w-[430px] xl:h-[470px];
+}
+
+.features-card-svg {
+  @apply absolute top-6 left-6 w-[260px] xl:w-[380px];
+}
