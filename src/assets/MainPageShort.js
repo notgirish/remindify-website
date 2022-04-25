@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function MainPageShort(width,height) {
+export default function MainPageShort() {
     return (
-        <svg width={width} height={height} viewBox="0 0 360 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width='' height='' viewBox="0 0 360 400" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="360" height="400" rx="20" fill="#121212" />
             <rect x="30" y="230" width="300" height="64" rx="10" fill="#424242" />
             <rect x="220" y="32" width="50" height="50" rx="10" fill="#F2F2F2" />
