@@ -5,7 +5,7 @@ import logo from '../assets/logo-flat.svg'
 
 export default function HeaderNav() {
     return (
-        <nav className='fixed z-10 h-24 w-full bg-white'>
+        <nav className='fixed z-10 h-20 w-full bg-white'>
             <div className='container flex justify-between items-center px-4 py-4'>
                 <Link to="/"><img src={logo} alt='remify logo' className='w-12'/></Link>
                 <div className='bg-secondary text-primary flex items-center px-4 rounded-2xl mr-3'>
