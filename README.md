@@ -11,4 +11,4 @@ The app was initially called 'Remindify' but was changed to 'Remify' due to Play
 <br/>
 Website preview:
 
-![Remify Website Preview](ttps://github.com/notgirish/remindify-website/blob/main/src/assets/preview.PNG)
+![Remify Website Preview](https://github.com/notgirish/remindify-website/blob/main/src/assets/preview.png)
